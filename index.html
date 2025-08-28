@@ -4,40 +4,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <title>GitHub Profile Page</title>
 </head>
-<body class="bg-gray-200">
+<body class="bg-[#d6dfd3] min-h-screen">
+
   <!-- Header -->
-  <div class="w-full bg-gray-800 text-white flex items-center p-2">
-    <i class="fa-brands fa-github text-2xl ml-2 mr-auto"></i>
-    <h5 class="m-0 mx-auto font-semibold">GITHUB</h5>
+  <div class="w-full bg-[#2c3e50] text-white flex items-center p-3">
+    <i class="fa-brands fa-github text-2xl ml-2"></i>
+    <h1 class="mx-auto font-semibold tracking-wide">GITHUB</h1>
   </div>
 
-  <!-- Example box -->
-  <div class="max-w-md mx-auto mt-6 p-4 bg-gray-900 rounded-lg">
-    <input type="text" placeholder="Enter text..."
-      class="w-full p-2 bg-gray-900 text-gray-300 placeholder-gray-400 rounded-md border-none outline-none">
-  </div>
-</body>
-</html> class="m-0 mx-auto">GITHUB</h5>
-  </div>
-  <div class="container-fluid mt-4">
-    <div class="row">
-           <div class="col-12 col-md-3 mb-3">
-        <div class="box p-5"></div>
+  <!-- Main Content -->
+  <div class="container mx-auto mt-6 flex gap-6 px-4">
+    
+    <!-- Left Sidebar -->
+    <div class="w-1/4 bg-gray-800 h-80 rounded-lg"></div>
+
+    <!-- Right Section -->
+    <div class="flex-1">
+      <!-- Search -->
+      <input type="text" placeholder="Search" 
+        class="w-1/2 p-2 mb-6 bg-gray-700 text-gray-300 placeholder-gray-400 rounded-md border-none outline-none">
+      
+      <!-- Row of 3 boxes -->
+      <div class="flex gap-4 mb-6">
+        <div class="flex-1 bg-gray-800 h-24 rounded-lg"></div>
+        <div class="flex-1 bg-gray-800 h-24 rounded-lg"></div>
+        <div class="flex-1 bg-gray-800 h-24 rounded-lg"></div>
       </div>
-      <div class="col-12 col-md-9">
-        <div class="mb-3">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <div class="row mb-3">
-          <div class="col-12 col-md-4 mb-3"><div class="box p-5"></div></div>
-          <div class="col-12 col-md-4 mb-3"><div class="box p-5"></div></div>
-          <div class="col-12 col-md-4 mb-3"><div class="box p-5"></div></div>
-        </div>
-        <div><div class="box p-5"></div></div>
-      </div>
+
+      <!-- Big box -->
+      <div class="w-full bg-gray-800 h-32 rounded-lg"></div>
     </div>
   </div>
 </body>
 </html>
-
